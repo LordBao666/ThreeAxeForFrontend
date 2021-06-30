@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Welcome To Register Page</h1>
+    <form action="#" method="GET">
+        <!-- text 提交文本 name属性用于收取数据value  -->
+        username:<input type="text" name="" id="" required /> <br />
+        <!-- placeholder 占位符 并不会作为实际value  -->
+        passsword:
+        <input type="password" name="" id="" placeholder="字母数字特殊字符" required />
+        <br />
+        email: <input type="email" name="" id="" value="example@example.com" />
+        <br />
+        description: <br />
+        <textarea name="" id="" cols="30" rows="10">
+I'm from ...
+I like ...
+contact me  by ...
+        </textarea>
+        <br /><br>
+
+        <!-- 性别 -->
+        Your gender：<br>
+        <label for="gender#male">male :</label>
+        <input type="radio" name="gender" id="gender#male" value="m" />
+
+        <label for="gender#female">female : </label>
+        <input type="radio" name="gender" id="gender#female" value="f" /> <br /> <br>
+
+        <!-- 熟悉的代码 -->
+        Your Programming Language：<br>
+        java：<input type="checkbox" name="language" id="" value="java" checked />
+        python：<input type="checkbox" name="language" id="" value="python" />
+        c：<input type="checkbox" name="language" id="" value="c" /> <br /> <br>
+
+        <!-- 年龄 -->
+        年龄:<select name="" id="">
+            <option value="13" selected>13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+        </select>
+        <br /><br>
+
+        <!--提交分为两种  不过button按钮的作用可不止提交-->
+        <input type="submit" value="commit" /> <br />
+        <!-- <button type="submit" >  commit</button> -->
+    </form>
+</body>
+
+</html>
