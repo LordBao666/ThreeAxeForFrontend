@@ -1,0 +1,22 @@
+body{
+    font-family: monospace;
+    line-height: 1.5rem;
+}
+
+div {
+    color: blueviolet;
+    border: 3px solid black;
+}
+
+/* div {
+    color: greenyellow;
+    border: 3px solid black;
+} */
+
+p{
+    color: blue;
+}
+/* 全局选择器 Speciality最低 也是基本选择器之一 */
+* {
+    color: pink;
+}

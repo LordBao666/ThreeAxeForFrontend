@@ -1,0 +1,31 @@
+
+/* 这里没有设计全局选择器和属性选择器 */
+/* Type Selector 中文叫元素选择器，标签选择器 */
+p {
+    color: violet;
+}
+
+/* ID Selector  ID 选择器 
+只能针对一个id
+*/
+#title {
+    color: ghostwhite;
+    background-color: black;
+}
+
+#subheading {
+    color: ghostwhite;
+    background-color: black;
+}
+
+/* Class Selector 类选择器 
+可对多个class属性标识的标签使用
+*/
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
