@@ -1,0 +1,45 @@
+#one{
+    /* 常规的color Name */
+    color: rgb(255, 255, 0);
+    /* background-color: pink; */
+    background: pink;
+}
+
+#two{
+    /* rgb(0-255,0-255,0-255) */
+    color: rgb(255, 255, 0);
+    background-color: rgb(255, 192, 203);
+}
+
+#testRGBA1{
+    /*rgba(0-255,0-255,0-255,0-1)  最后一个表示不透明程度*/
+    color: rgb(255, 255, 0);
+    background-color:rgba(255, 192, 203,0) ;
+}
+
+#testRGBA2{
+    /*rgba(0-255,0-255,0-255,0-1)  最后一个表示不透明程度*/
+    color: rgb(255, 255, 0);
+    background-color:rgba(255, 192, 203,.25) ;
+}
+
+#testRGBA3{
+    /*rgba(0-255,0-255,0-255,0-1)  最后一个表示不透明程度*/
+    color: rgb(255, 255, 0);
+    background-color:rgba(255, 192, 203,.5) ;
+}
+
+#testRGBA4{
+    /*rgba(0-255,0-255,0-255,0-1)  最后一个表示不透明程度*/
+    color: rgb(255, 255, 0);
+    background-color:rgba(255, 192, 203,1) ;
+}
+
+#four{
+    /* Hex 16进制 和 RGB没有区别。只是进制不同 RRGGBB。采用16进制。
+    对于ffff00 这种，可以简写为ff0 
+    */
+    /* color: #ffff00; */
+    color: #ff0;
+    background-color: #ffc0cb;
+}
