@@ -1,0 +1,32 @@
+.style1{
+    /* 首行缩进 */
+    text-indent: 2em;
+    /* 默认是左对齐 */
+    text-align: left;
+}
+
+.style2{
+    text-align: center;
+}
+
+.style3{
+    /* 注意这是行高，不是行间距 */
+    line-height: 2em;
+    /* 字母间距 */
+    letter-spacing: 10px;
+}
+
+.style4{
+    /* 字间距 */
+    word-spacing: 10px;
+}
+
+h1{
+    /* 首字母大写 */
+    text-transform: capitalize;
+}
+
+a{  
+    /* 修饰在标签上，可以去掉下划线 */
+    text-decoration: none;
+}

@@ -1,0 +1,24 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-family: 'Hanalei Fill', cursive;;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.bolder{
+    font-weight: bolder;
+}
+
+.oneStyle{
+    font-style: italic;
+}
+
+.twoStyle{
+    /* normal是默认值 */
+    font-style: normal; 
+}
