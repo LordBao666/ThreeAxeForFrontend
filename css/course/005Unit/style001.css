@@ -1,0 +1,29 @@
+/* 百分比是参照父元素的大小而定 是一种相对定位 */
+.inner {
+    background-color: pink;
+    width: 50%;
+    height: 50%;
+}
+
+/* pixel 绝对定位 */
+.outer {
+    background-color: yellow;
+    width: 400px;
+    height:200px;
+}
+
+/* em 和 px */
+.relative{
+    /* 相对于父亲font-size的大小 */
+    font-size: 2em;
+}
+.absolute{
+    font-size: 32px;
+}
+
+html{
+    font-size: 32px;
+}
+.remRelative{
+    font-size: 2rem;
+}

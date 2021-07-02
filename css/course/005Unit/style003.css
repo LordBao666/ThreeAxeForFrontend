@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+}
+
+.navbar{
+    background: coral;
+    height: 100px;
+    color: darkblue;
+    font-size: 3rem;
+}
+
+.banner{
+    background: yellow;
+    /* min-height: 100vh; */
+    min-height: calc(100vh - 100px);
+}

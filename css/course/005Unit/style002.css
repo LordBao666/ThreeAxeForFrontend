@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 50vw;
+    height: 50vh;
+    background-color: wheat;
+}
+
+/* 像这种100vw，100vh是相对于浏览器屏幕而言的
+可以用来做Banner。
+*/
+.footer{
+    width: 100vw;
+    height: 100vh;
+    background-color: purple;
+}
