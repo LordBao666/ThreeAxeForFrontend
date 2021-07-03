@@ -9,12 +9,24 @@
 </head>
 
 <body>
-    <!-- <img src="./html5.png" alt="html logo"> -->
-    <img src="/course/html5.png" alt="html logo" />
+    <!-- img最重要的src属性，它指明了图片的来源。通常图片来源分为内链和外链，
+    内链即为本网站的图片，用相对路径或绝对路径标识。外链其他网站的图片。 -->
 
-    <img src="./pexels-nick-wehrli-5282269.jpg" alt="Landscape" height="200" />
-
+    <!-- 1.绝对路径 以斜杠/开头， 除非项目的根路径不变，那么则采用此方式。
+    可能存在一些根路径不同的情况，比如VSCode预览方式的根路径会以你打开的文件夹为根路径。
+    而Win10的资源管理器则以C盘或D盘为根路径。将你的项目拷贝给别人的话，这种方式常常会导致图片无法呈现。
+    -->
+    <!-- img 有若干属性 其中src是必选属性，alt是可选属性，但推荐写上，因为当你图片失效时，alt属性会提醒页面的浏览者该图片的相关信息 -->
+    <img src="/html/course/html5.png" alt="html logo" />
     
+    <!-- 2.相对路径更加灵活得多，图片的具体引入方式是图片相对于当前编辑页面（html)的位置 -->
+    <!-- height属性是设置图片的高度，这里采用的是绝对大小，当然还可以采用相对大小：即百分比。
+    代表的含义是相对浏览器窗口的大小。与height对应的有width。
+    height和width属性的设置并不会影响真实存在图片的大小。 -->
+    <img src="./landscape.jpg" alt="Landscape" height="200" />
+
+    <!-- 上面的两种方式都是图片内链的方式，除此外，还有图片外链的方式 -->
+    <img src="https://www.bit.ly/fcc-relaxing-ct" alt="A Lovely Cat">
 </body>
 
 </html>

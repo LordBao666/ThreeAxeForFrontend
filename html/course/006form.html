@@ -10,16 +10,20 @@
 
 <body>
     <h1>Welcome To Register Page</h1>
+    <!-- action表示表单提交的目的地，通常是超链接。 method表示提交的方式，常见的是get和post-->
     <form action="#" method="GET">
-        <!-- text 提交文本 name属性用于收取数据value  -->
+        <!-- text 提交文本 name属性用于收取数据value，不过这里不需要了解这么多。
+        required属性要求该文本text是必填的。与required这种不是KV对的属性还有selected，checked，disabled等  -->
         username:<input type="text" name="" id="" required /> <br />
-        <!-- placeholder 占位符 并不会作为实际value  -->
+        <!-- placeholder 占位符 并不会作为实际value 通常起提示作用 -->
         passsword:
         <input type="password" name="" id="" placeholder="字母数字特殊字符" required />
         <br />
+        <!-- email 相比于text而言，它的格式有限制，输入的文本必须含@ -->
         email: <input type="email" name="" id="" value="example@example.com" />
         <br />
         description: <br />
+        <!-- 相比于text而言，它的输入框更加大，cols属性表示列数，rows属性表示行数 -->
         <textarea name="" id="" cols="30" rows="10">
 I'm from ...
 I like ...
@@ -29,19 +33,26 @@ contact me  by ...
 
         <!-- 性别 -->
         Your gender：<br>
+        <!-- label 的 for属性的值与其他标签的id的值应该保持一致，
+        那么当你鼠标点击到label时会同样点击到它对应的其他标签。
+        这种会提高用户的体验度 -->
         <label for="gender#male">male :</label>
+        <!-- radio单选框，要求属于同一组的单选框的name务必是一致的，以表明它们同属一组 -->
         <input type="radio" name="gender" id="gender#male" value="m" />
 
         <label for="gender#female">female : </label>
         <input type="radio" name="gender" id="gender#female" value="f" /> <br /> <br>
 
         <!-- 熟悉的代码 -->
+        <!-- checkbox 多选框，要求属于同一组的单选框的name务必是一致的，以表明它们同属一组，
+        但与radio不同的是 checkbox可以进行多选。 checked表示默认选择，radio也可以采用该属性 -->
         Your Programming Language：<br>
         java：<input type="checkbox" name="language" id="" value="java" checked />
         python：<input type="checkbox" name="language" id="" value="python" />
         c：<input type="checkbox" name="language" id="" value="c" /> <br /> <br>
 
         <!-- 年龄 -->
+        <!-- select下拉选框，selected表示默认选中 -->
         年龄:<select name="" id="">
             <option value="13" selected>13</option>
             <option value="14">14</option>
