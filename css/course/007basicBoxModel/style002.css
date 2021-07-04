@@ -1,0 +1,8 @@
+.one{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    outline:solid 10px pink;
+    border: solid 10px green;
+    outline-offset: -20px;
+}

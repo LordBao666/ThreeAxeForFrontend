@@ -1,0 +1,56 @@
+/* 
+CSS Box Model 的核心概念是 Content Padding(填充物) Border Margin
+把他们想象成 tank。 司机是Content，Border是装甲，Padding是装甲与司机的那段空间。Margin是坦克之间，或是坦克与墙壁之间的距离。
+
+*/
+
+/* body{
+    margin: 0;
+} */
+
+/* 消除默认的Margin样式 */
+/* * {
+    margin: 0;
+} */
+
+.one{
+    background-color: rgb(43, 226, 165);
+    /* Padding 填充物  这是一种写法*/
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+
+    /* margin-top: 0;
+    margin-left: 0; */
+    /* margin-bottom: 0px; */
+
+    border: 10px black solid;
+    /* 你要想跳得更加精细可以像下面这样写 */
+    /* border-width: 10px;
+    border-top-width: 10px; */
+
+    /* Margin可以为负 */
+    margin-bottom: 10px;
+}
+
+.two{
+    background-color: rgb(167, 151, 163);
+    /* Padding另外一种简洁写法 */
+    /* 代表上下左右均为20px */
+    padding: 20px;
+    /* 代表上下20px，左右40px */
+    padding: 20px 40px;
+    /* 代表上下左右分别为 20px 30px 40px 50px*/
+    padding: 20px 30px 40px 50px;
+
+    /* margin-top: 0px; */
+    border-style: dashed;
+    border-width: 10px;
+    border-color: yellow;
+
+
+    /* border-radius: 25px;
+    border-radius: 50%; */
+    margin-top: -10px;
+}
