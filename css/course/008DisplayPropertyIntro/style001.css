@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+}
+.block {
+    background-color: greenyellow;
+   /* display: inline; */
+    width: 300px;
+    height: 100px;
+    
+    /* 做法1 */
+    margin-left: auto;
+    margin-right: auto;
+
+    /* 做法2 这种更加简洁，并且额外地把上下的间距设为了0 */
+    /* margin: 0 auto; */
+}
+
+.inline {
+    background-color: pink;
+   /* display: block; */
+}

@@ -1,0 +1,24 @@
+
+/* 消除浏览器默认样式 */
+*{
+    padding: 0;
+    margin: 0;
+    /* 这个先就这样，不深究 */
+    box-sizing: border-box;
+}
+
+/* 后代选择器 */
+ul li a{
+    /* 去掉下划线 */
+    text-decoration: none;
+    background-color: purple;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: pink;
+    display: block;
+}
+
+ul li {
+    /* 去掉列表的默认效果，可能这里看不太出来 */
+    list-style-type: none;
+}

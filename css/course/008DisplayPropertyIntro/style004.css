@@ -1,0 +1,25 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.box1,.box2,.box3{
+    width: 200px;
+    height: 200px;
+}
+
+.box1{
+    background-color: pink;
+    padding: 20px;
+    border: 20px blue solid;
+}
+
+.box2{
+    background-color: blueviolet;
+}
+
+.box3{
+    background-color: greenyellow;
+}

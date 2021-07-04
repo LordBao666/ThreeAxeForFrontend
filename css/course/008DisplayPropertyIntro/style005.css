@@ -1,0 +1,19 @@
+.none{
+    display: none;
+}
+
+.opazero{
+    opacity: 0;
+}
+
+.opafive{
+    opacity: .5;
+}
+
+.opafull{
+    opacity: 1;
+}
+
+.visibility{
+    visibility:hidden;
+}
