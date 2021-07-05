@@ -1,0 +1,25 @@
+div {
+    height: 400px;
+    color: red;
+}
+
+.smallBackground{
+    /* background 又是一个简写方式 */
+    /* background: url(./images/hong-kong-night1.jpg); */
+    background-image: url(./images/hong-kong-night1.jpg);
+
+    /* 图片是否平铺 */
+    /* background-repeat: no-repeat; */
+    /* background-repeat:space ; */
+    
+    /* 控制背景图片的位置 */
+    /* background-position: center; */
+    /* background-position: 50% 50%; */
+}
+
+.bigBackground{
+    background-image: url(./images/science-fiction1.jpg);
+    /* background-repeat: round; */
+    background-size: cover;
+    /* background-size: contain; */
+}

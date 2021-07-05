@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+div {
+    min-height: 100vh;
+    color: purple;
+    font-size: 60px;
+    text-align: center;
+    /* Don't care now */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .smallBackground{
+    background-image: url(./images/hong-kong-night1.jpg);
+} */
+
+.bigBackground{
+    background-image: url(./images/science-fiction1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+}
