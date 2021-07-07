@@ -1,0 +1,28 @@
+.banner{
+    border: 5px salmon solid;
+}
+/* 
+img{
+    float: left;
+    border: 5px red solid;
+    margin: 2px;
+} */
+
+.one{
+    float: left;
+    border: 5px red solid;
+    margin: 2px;
+}
+
+.two{
+    float: right;
+    border: 5px red solid;
+    margin: 2px;
+    height: 200px;
+}
+
+
+p{
+    clear: both;
+    clear: left;
+}

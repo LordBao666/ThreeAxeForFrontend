@@ -1,0 +1,25 @@
+p::before{
+    content: "Hello";
+    color: red;
+    font-size: 30px;
+    display: block;
+    background-color: black;
+}
+
+p::after{
+    content: "";
+    color: red;
+    font-size: 30px;
+    display: block;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+}
+
+/* img::before{
+    content: "Hello";
+} */
+
+div::before{
+    content: "Hello";
+}

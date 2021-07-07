@@ -1,0 +1,24 @@
+
+div{
+    background-color: rosybrown;
+    border: 5px solid black;
+    position: relative;
+}
+
+.one{
+    background-color: blue;
+    position: relative;
+    /* top: -50px; */
+}
+.two{
+    /* bottom: 100px; */
+    background-color: green;
+    
+}
+.special{
+    background-color: hotpink;
+    /* position: absolute; */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
