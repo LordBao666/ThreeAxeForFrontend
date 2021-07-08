@@ -1,0 +1,35 @@
+.animation{
+    background-color: rgba(250, 128, 114,0.1);
+    width: 100px;
+    height: 100px;
+    /* 全写方式 */
+    animation-name: move;
+    animation-duration: 5s;
+    /* 动画执行次数 */
+    /* animation-iteration-count: 4; */
+    animation-iteration-count: infinite;
+    /* 简写方式 */
+    /* animation: move 5s infinite; */
+}
+
+@keyframes move {
+    25%{
+        transform: translateX(200px);
+        background-color:rgba(250, 128, 114,0.25) ;
+    }
+
+    50%{
+        transform: translateX(400px);
+        background-color:rgba(250, 128, 114,0.5) ;
+    }
+
+    70%{
+        transform: translateX(200px);
+        background-color:rgba(250, 128, 114,0.75) ;
+    }
+
+    100%{
+        /* transform: translateX(0px); */
+        background-color:rgba(250, 128, 114,1) ; 
+    }
+}

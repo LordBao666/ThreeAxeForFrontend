@@ -1,0 +1,26 @@
+div {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
+.one {
+    background-color: red;
+} 
+
+.two {
+    background-color: green;
+}
+
+.three {
+    background-color: blue;
+    /* transition-property: background-color, border-radius;
+    transition-duration: 5s, 5s;
+    transition-delay: 3s; */
+    transition: background-color 3s 1s, border-radius 3s 1s;
+}
+
+.three:hover{
+    background-color: salmon;
+    border-radius: 50%;
+}

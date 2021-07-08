@@ -1,0 +1,40 @@
+div{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
+.one{
+    background-color: red;
+    /* transform: translateX(75px); */
+    /* transform: scaleX(50%);
+    transform: scaleX(0.5); */
+
+    /* 测试Rotate */
+    /* box-sizing: border-box;
+    border-width: 50px;
+    border-color: rgba(0, 0,0, 0.1) rgba(0,0,0,0.3) rgba(0, 0,0, 0.6) rgba(0, 0,0, 0.9);
+    border-style: solid; */
+    /* transform: rotateX(145deg) rotateY(45deg)  rotateZ(100deg); */
+    /* transform: rotate(45deg); */
+    /* transform: rotateZ(45deg); */
+
+    /* 测试Skew */
+    transform: skewX(25deg);
+}
+
+.two{
+    background-color: green;
+    /* transform: translateX(50%); */
+    /* transform: translate(50px,-50px); */
+    /* transform: scaleY(2); */
+    transform: skewX(50deg);
+    transform: skew(100deg,100deg);
+}
+
+.three{
+    background-color: blue;
+    /* transform: translateY(150px); */
+    /* transform: scale(0.5,0.5); */
+    transform: skewX(75deg);
+}

@@ -1,0 +1,32 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    margin: 3px;
+    transition: all 1s;
+}
+
+div:hover{
+    transform: translateX(100px);
+}
+
+.Ease{
+    transition-timing-function: ease;
+}
+
+
+.Linear{
+    transition-timing-function:linear;
+}
+
+.Ease-In{
+    transition-timing-function:ease-in;
+}
+
+.Ease-Out{
+    transition-timing-function:ease-out;
+}
+
+.Ease-In-Out{
+    transition-timing-function:ease-in-out;
+}
