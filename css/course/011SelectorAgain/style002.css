@@ -1,0 +1,11 @@
+
+/* 后代选择器 */
+div h1{
+    color: red;
+}
+
+/* 直接子代选择器 */
+div > h1{
+    color: blue;
+}
+

@@ -1,0 +1,23 @@
+/* 通用的Link 伪类 
+下面的顺序务必是 link visited hover active。
+
+*/
+a:link{
+    color: burlywood;
+    text-decoration-line: none;
+}
+
+
+a:visited{
+    color: rgb(95, 95, 236);
+}
+
+
+a:hover{
+    color: chartreuse;
+}
+
+
+a:active{
+    color: yellow;
+}

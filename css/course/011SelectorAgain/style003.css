@@ -1,0 +1,17 @@
+p::first-line{
+    font-weight: bold;
+}
+
+p::first-letter{
+    font-size: 1.5rem;
+}
+
+p{
+    text-indent: 2rem;
+}
+
+
+/* 补充hover */
+p:hover{
+    background-color: rgb(241, 222, 198);
+}
