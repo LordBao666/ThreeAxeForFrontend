@@ -1,0 +1,33 @@
+
+
+:root{
+    --primaryColor:green;
+    --secondaryColor:blue;
+    --transition:all 2s linear;
+}
+
+.one{
+    color: var(--primaryColor);
+}
+
+.two{
+    color: var(--primaryColor);
+}
+
+.three{
+    color:var(--primaryColor);
+    transition: var(--transition);
+}
+
+.three:hover{
+    color: var(--secondaryColor);
+}
+
+div {
+    --primaryColor:purple;
+}
+
+p {
+    color: var(--primaryColor);
+}
+

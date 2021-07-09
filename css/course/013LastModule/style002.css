@@ -1,0 +1,16 @@
+h1 {
+    text-shadow: 9px 7px 3px rgb(233, 223, 135);
+}
+
+.one {
+    width: 200px;
+    height: 200px;
+    transition: all 2s linear;
+    background-color: blueviolet;
+}
+
+.one:hover {
+    -webkit-box-shadow: 17px -13px 11px 0px rgba(101, 101, 179, 0.75);
+    -moz-box-shadow: 17px -13px 11px 0px rgba(101, 101, 179, 0.75);
+    box-shadow: 17px -13px 11px 0px rgba(101, 101, 179, 0.75);
+}
